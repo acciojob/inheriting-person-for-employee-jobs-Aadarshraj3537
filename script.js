@@ -1,4 +1,3 @@
-// Person Class
 class Person {
   constructor(name, age) {
     this.name = name;
@@ -24,12 +23,11 @@ class Employee extends Person {
   }
 }
 
-// Testing the implementation
+
 const person = new Person("Alice", 25);
 person.greet(); 
-// Expected Output: Hello, my name is Alice, I am 25 years old.
+
 
 const employee = new Employee("Bob", 30, "Manager");
 employee.jobGreet(); 
-// Expected Output: Hello, my name is Bob, I am 30 years old, and my job title is Manager.
 
